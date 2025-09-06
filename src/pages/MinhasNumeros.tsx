@@ -16,7 +16,7 @@ interface Purchase {
   stripe_session_id: string;
 }
 
-const MinhasRifas = () => {
+const MinhasNumeros = () => {
   const [purchases, setPurchases] = useState<Purchase[]>([]);
   const [loading, setLoading] = useState(true);
   const { user } = useAuth();
@@ -207,11 +207,11 @@ const MinhasRifas = () => {
   );
 };
 
-// Wrapping with ProtectedRoute
-const MinhasRifasProtected = () => (
+// Wrapping with ProtectedRoute  
+const MinhasNumerosProtected = () => (
   <ProtectedRoute>
-    <MinhasRifas />
+    <MinhasNumeros />
   </ProtectedRoute>
 );
 
-export default MinhasRifasProtected;
+export default MinhasNumerosProtected;

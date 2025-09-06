@@ -110,7 +110,7 @@ const HeroSection = () => {
               {/* Progress Bar */}
               <div className="mt-6">
                 <div className="flex justify-between text-sm text-primary-foreground/80 mb-2">
-                  <span>Progresso da Rifa</span>
+                  <span>Progresso do Sorteio</span>
                   <span>{progressPercentage.toFixed(1)}%</span>
                 </div>
                 <div className="w-full bg-accent/30 rounded-full h-3">

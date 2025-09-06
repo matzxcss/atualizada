@@ -126,7 +126,7 @@ serve(async (req) => {
             currency: 'brl',
             product_data: {
               name: `Números - Porsche Taycan (${quantity} números)`,
-              description: `Compra de ${quantity} números para o sorteio do Porsche Taycan.`,
+              description: `Compra de ${quantity} números para concorrer ao Porsche Taycan.`,
             },
             unit_amount: Math.round(totalAmount / quantity), // unit_amount expects an integer in cents
           },

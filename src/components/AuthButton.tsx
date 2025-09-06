@@ -21,7 +21,7 @@ export const AuthButton = () => {
           onClick={handleComprarRifa} 
           className="btn-hero text-lg sm:text-xl md:text-2xl font-bold px-8 sm:px-10 md:px-12 py-4 sm:py-5 md:py-6 animate-pulse-gold shadow-[0_0_30px_rgba(255,215,0,0.5)] hover:shadow-[0_0_40px_rgba(255,215,0,0.7)] transition-all duration-300"
         >
-          🏆 Comprar Rifa
+          🏆 Comprar Números
         </Button>
         <Button 
           onClick={signOut} 
@@ -39,7 +39,7 @@ export const AuthButton = () => {
       onClick={handleComprarRifa} 
       className="btn-hero text-lg sm:text-xl md:text-2xl font-bold px-8 sm:px-10 md:px-12 py-4 sm:py-5 md:py-6 animate-pulse-gold shadow-[0_0_30px_rgba(255,215,0,0.5)] hover:shadow-[0_0_40px_rgba(255,215,0,0.7)] transition-all duration-300"
     >
-      🏆 Comprar Rifa
+      🏆 Comprar Números
     </Button>
   );
 };

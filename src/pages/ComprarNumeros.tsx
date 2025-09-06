@@ -6,7 +6,7 @@ import { Calculator, Shield, CreditCard, AlertCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useNavigate } from "react-router-dom";
 
-const ComprarRifas = () => {
+const ComprarNumeros = () => {
   const [quantity, setQuantity] = useState(100); // Quantidade mínima
   const [userProfile, setUserProfile] = useState<any>(null);
   const [loading, setLoading] = useState(false);
@@ -169,7 +169,7 @@ const ComprarRifas = () => {
               Comprar <span className="text-gradient-primary">Números</span>
             </h1>
             <meta name="description" content="Compre números do sorteio e concorra ao Porsche Taycan 2025. Números a partir de R$0,10. Promoção: 1000+ números por R$0,05 cada!" />
-            <meta name="keywords" content="números, porsche, taycan, carro, sorteio, comprar números, números da sorte" />
+            <meta name="keywords" content="números, porsche, taycan, carro, sorteio, comprar números, números da sorte, prêmios" />
             {userProfile ? (
               <p className="text-responsive text-muted-foreground">
                 Bem-vindo(a), <span className="font-semibold text-primary">{userProfile.full_name}</span>! 
@@ -373,4 +373,4 @@ const ComprarRifas = () => {
   );
 };
 
-export default ComprarRifas;
+export default ComprarNumeros;

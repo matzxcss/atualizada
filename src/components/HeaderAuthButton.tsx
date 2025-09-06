@@ -21,7 +21,7 @@ export const HeaderAuthButton = () => {
            onClick={handleComprarRifa} 
            className="bg-primary text-primary-foreground px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg font-medium text-xs sm:text-sm"
          >
-           Comprar Rifa
+           Comprar Números
          </Button>
          <Button 
            onClick={signOut} 
@@ -39,7 +39,7 @@ export const HeaderAuthButton = () => {
        onClick={handleComprarRifa} 
        className="bg-primary text-primary-foreground px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg font-medium text-xs sm:text-sm"
      >
-       Comprar Rifa
+       Comprar Números
      </Button>
    );
 };
